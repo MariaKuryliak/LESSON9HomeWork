@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <style>
+        .btn{
+            display: flex;
+            justify-content: space-between;
+            width: 25%;
+            /* text-align: center; */
+        }
+        #in{
+            width: 25%;
+            height:65px;
+        }
+        #out{
+            width: 25%;
+            background-color: green;
+        }
+        input[type="button"]{
+            width: 15%;
+        }
+        /* .container{ */
+            /* margin-left: 550px; */
+            /* margin-top: 350px; */
+            
+
+        /* } */
+        div {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+    </style> -->
+    <style>
+        input[type=text] {
+          width: 50%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
+        input[type=button]{
+          width: 10%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
+        input[type=submit] {
+          width: 71%;
+          background-color: #4CAF50;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          border-radius: 4px;
+        }
+        #lname{
+          width: 71%;
+          height: 50%;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          border-radius: 4px;
+        }
+        div {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+          text-align: center;
+        }
+        #box1{
+            background-color: yellow;
+        }
+        #box2{
+            background-color: red;
+        }
+        </style>
+        
+</head>
+<body>
+    <script src="main.js"></script>
+    <!-- <div>    
+    <form action="/action_page.php"></form>
+    <label for="fname"><b>Bad words:</b>java,tettenham</label>
+      <div class="btn">
+        
+      <input  type="text" placeholder="word here...">
+      <input  type="button" value="Add">
+      <input  type="button" value="Reset">
+     </div>
+     <br>  
+     <br>
+     <input id="in" type="text" value="">
+     <br>
+    <br>
+    <input id="out" type="button" value="Cencor">
+
+    </form>
+    </div> -->
+    <h3 style="text-align:center;">List of prohibited words:</h3>
+
+<div>
+  <form action="/action_page.php">
+    <script>
+        function Add(){
+                alert("Assembler");
+        }
+    </script>
+    <label for="fname"><b>Bad words:</b>java,tottenham</label><br>
+    <input type="text" id="fname" placeholder="word here.." onclick="Add()">
+    <input type="button" value="Add" id="box1">
+    <input type="button" value="Reset" id="box2">
+
+    <input type="text" id="lname" name="lastname" placeholder="text here..." height="50%">
+  
+    <input type="submit" value="Cencor">
+  </form>
+</div>
+</body>
+</html>
+
+
+
